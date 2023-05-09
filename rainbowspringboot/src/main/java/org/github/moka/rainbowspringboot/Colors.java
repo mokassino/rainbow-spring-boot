@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadLocalRandom; //Random number generator
 public class Colors {
 
     @GetMapping("/colors")
-    public String index( @RequestParam(value = "name", defaultValue = "World") String name, Model model ) {
+    public String index( Model model ) {
 
         int [] rgb = new int[3];
         rgb[0] = 0;
