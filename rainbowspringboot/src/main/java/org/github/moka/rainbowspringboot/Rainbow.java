@@ -21,7 +21,7 @@ public class Rainbow {
         fillRainbow();
     }
 
-    private void fillRainbow(){
+    private void fillRainbow(){ //fill array of RGB Models with colors form the rainbow
         int[][] colors = {
             {255, 0, 0},      // Red
             {255, 127, 0},    // Orange

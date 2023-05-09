@@ -1,6 +1,9 @@
 package org.github.moka.rainbowspringboot;
 
 
+/*
+Simple model class that allow to store and manage RGB values
+*/
 public class RgbModel {
     private int[] rgb;
 
